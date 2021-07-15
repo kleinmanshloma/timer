@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+.btn {
+  background-color: rgb(255, 187, 0);
+  border-radius: 10rem;
+  margin-top: 35rem;
+  width: 35%;
+  margin-bottom: 5rem;
+}
+
+.section_timer_time {
+  padding-bottom: 6rem;
+  width: 50%;
+  font-size: 4.5rem;
+  color: gray;
+  position: absolute;
+  top: 6rem;
+  outline: 4px solid rgb(167, 66, 66);
+  outline-offset: 15px;
+  border-bottom: thick groove #32a1ce;
+  border-width: 5px;
+  margin-left: 25%;
+  text-align: center;
+}
+.date_time_and_timer_time {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.section_timer_date {
+  font-weight: 700;
+  font-size: 13rem;
+  position: relative;
+  top: 15rem;
+  color: gray;
+  margin-left: 40%;
+}
+.btn--start {
+  /* display: inline-block; */
+  font-weight: 700;
+  font-size: 6rem;
+  color: gray;
+  text-align: center;
+  cursor: url(../IMG_1273.JPG);
+}
+.btn--puase {
+  /* display: inline-block; */
+  font-weight: 700;
+  font-size: 6rem;
+  color: gray;
+  text-align: center;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
